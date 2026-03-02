@@ -10,6 +10,6 @@ public class CseController {
     @GetMapping("/cseadd")
     public String addCSE(@RequestParam int a, @RequestParam int b) {
         int sum = a + b;
-        return "The value is " + sum + " and my roll number is 23mh1a05c0";
+        return "THE VALUE IS " + sum + " AND MY ROLL NUMBER IS 23MH1A05I1";
     }
 }
